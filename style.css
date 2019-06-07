@@ -1,0 +1,126 @@
+body{
+    font-size: 20px;
+    font-weight: bold;
+    background-color: lightgray;
+    
+}
+
+.banner{
+    height: 80vh;
+    background-color: black;
+    color: white;
+    width: 100vw;
+    }
+
+.sito{
+    border: 1px solid red;
+    font-weight: bold;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 25px;
+    margin: 86px 0px;
+    color: red;
+
+}
+
+.sito:hover{
+    border: 1px solid darkred;
+    color: darkred;
+}
+
+.scudetto{
+    width: 120px;
+
+}
+
+.introduzione{
+    padding: 50px 5px 0px;
+
+    
+}
+
+.introduzione>p{
+    width: 50vw;
+}
+
+.squadra{
+    margin: 0 auto;
+    background-image: url(fielddd.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 97vw;
+    font-size: 15px
+}
+
+
+.avatar{
+    width: 70px;
+    border-radius: 50%;
+}
+
+.portiere{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.difesa{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.centrocampo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.attacco{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.giocatore{
+    width: 125px;
+    height: 125px;
+    padding: 25px;
+    margin: 38px;
+    background-color: black;
+    border: 1px solid red;
+    color: red;
+    text-decoration: none;
+}
+
+.giocatore:hover{
+    background-color: grey;
+}
+
+.giocatore>p{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0;
+    font-size: 12px;
+}
+
+.giocatore>h3{
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    width: 1px;
+}
+
+.giocatore>.avatar{
+    display: flex;
+    justify-content: space-around;
+    margin: auto
+    
+}
+
+
+
+
